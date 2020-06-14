@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    </head>
+    <body onload="OnLoad()">
+        <nav>
+            <div id="">
+                <button type="button" class="btn btn-primary">Login</button>
+                <button type="button" class="btn btn-primary">Register</button>
+                <button type="button" class="btn btn-primary" onclick="UploadSound()">Upload a sound</button>
+            </div>
+        </nav>
+        
+        <main>
+            <section id = "latest-sounds">
+                <div id="posts"></div>
+            </section>
+        </main>
+
+        <script src="scripts/script.js" async defer></script>
+        <script src="scripts/require.js" async defer></script>
+    </body>
+</html>
